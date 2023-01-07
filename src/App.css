@@ -1,6 +1,6 @@
 .Movies{
     margin: 0px;
-    padding: 0px;
+    padding: 20px;
     background-color: #171717;
     display: flex;
     justify-content: space-around;
@@ -64,11 +64,11 @@ img{
     margin-left: 20px;
 }
 .footer{
-    background-color: #b92b2ba1;
-    margin: 20px 0;
-    padding: 10px;
+    background-color: #860000;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
+    color: white;
 }
 .Home{
     background-color: #171717;

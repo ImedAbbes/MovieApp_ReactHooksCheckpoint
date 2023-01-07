@@ -21,6 +21,7 @@ function Addmovie(props) {
         <Modal.Body>
           <input type="text" ref={props.pn} placeholder="movie name" style={{width:'100%'}}/>
           <input type="text" ref={props.pr} placeholder="movie rate ♥♥♥♥♥" style={{width:'100%',marginTop:'5px'}}/>
+          <input type="text" ref={props.tr} placeholder="movie trailer URL embedId from youtube" style={{width:'100%',marginTop:'5px'}}/>
           <input type="text" ref={props.pu} placeholder="movie image url" style={{width:'100%',marginTop:'5px'}}/>
           <textarea type="text" ref={props.description} placeholder="movie description" style={{width:'100%',height:'100px',marginTop:'5px', resize:'none'}}/>
         </Modal.Body>
